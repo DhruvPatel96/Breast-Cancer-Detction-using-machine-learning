@@ -1,14 +1,6 @@
 # Breast-Cancer-Classifiacation-using-machine-learning
-Abstract- Breast cancer is a condition when the breast's cells proliferate uncontrollably. There 
-are several forms of breast cancer. The kind of breast cancer is determined by which breast 
-cells develop into cancer. Healthcare is becoming smarter because of machine learning. Digital 
-diagnosis is one instance of machine learning being used in a healthcare setting. In patient 
-electronic medical data, machine learning (ML) may identify patterns of certain diseases and 
-alert physicians to any irregularities. Finding patient data sets with the required sample size 
-and quality to train cutting-edge machine learning models is one of the toughest hurdles. Patient 
-data is difficult to gather, exchange, and disseminate since it is covered by stringent privacy 
-and security regulations. There are issues with the format and quality of the data as well, which 
-often need a lot of work to clean and prepare for machine learning analysis. Inspired by this we 
-downloaded the breast cancer dataset - Breast Cancer (METABRIC, Nature 2012 & Nat 
-Commun 2016) from cBioPortal. We performed data pre-processing, feature selection, 
-classification, and trained a random forest classifier model to detect the cancer symptoms.
+Breast Cancer Classification Using Machine Learning is a project that utilizes machine learning to detect breast cancer symptoms. With the rise of digital diagnosis and machine learning in healthcare, this project aims to contribute to the field by training a random forest classifier model to identify patterns in patient data sets. The project utilizes the Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016) dataset from cBioPortal and performs data pre-processing, feature selection, and classification to ensure the quality of the input data.
+
+The project uses several libraries such as pandas, numpy, sklearn, seaborn, and matplotlib to carry out the necessary operations. The program uses machine learning algorithms such as RandomizedSearchCV, LinearDiscriminantAnalysis, and RandomForestClassifier to achieve high accuracy in classifying the breast cancer dataset. Additionally, the project employs confusion matrix and accuracy score metrics to evaluate the effectiveness of the machine learning model.
+
+Overall, this project demonstrates the potential of machine learning in the healthcare industry and how it can be utilized to provide faster and more accurate diagnosis of diseases like breast cancer.
